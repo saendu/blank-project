@@ -124,7 +124,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 sty.h1
               )}
             >
-              {"Welcome to your first page."}
+              {"This is a test-project"}
             </h1>
 
             <div
