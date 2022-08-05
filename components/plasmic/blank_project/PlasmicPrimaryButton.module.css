@@ -1,0 +1,60 @@
+.root {
+  background: rgba(0, 102, 102, 1);
+  width: 200px;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  border-radius: 8px;
+}
+.rootisSelected {
+  border: 2px solid #ff0000;
+}
+.root:hover {
+  background: #022929;
+}
+.rootisSelected:hover {
+  border-color: #00ff77;
+}
+.root:active {
+  background: #ff0000;
+}
+.unstyledButton2 {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 12px 20px;
+}
+.unstyledButton2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.unstyledButton2 > :global(.__wab_flex-container) > *,
+.unstyledButton2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.unstyledButton2 > :global(.__wab_flex-container) > picture > img,
+.unstyledButton2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.slotTargetTitle {
+  font-family: "DIN 2014";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+}

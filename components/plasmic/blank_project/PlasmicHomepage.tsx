@@ -34,11 +34,24 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import PrimaryButton from "../../PrimaryButton"; // plasmic-import: 7fe5zO4wma/component
+
+import { useScreenVariants as useScreenVariants_1HC4EWglKvby } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: 1H-C4eWglKVBY/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 4jWTYLjMvWY8nrbq5gdDSU/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: LU0WBGIqyVlJ/css
+
+import GroupIcon from "./icons/PlasmicIcon__Group"; // plasmic-import: dCxvUkLTj/icon
+import VectorIcon from "./icons/PlasmicIcon__Vector"; // plasmic-import: m9BjVVuvGT/icon
+import Vector2Icon from "./icons/PlasmicIcon__Vector2"; // plasmic-import: xlVQjxaBcp/icon
+import Vector3Icon from "./icons/PlasmicIcon__Vector3"; // plasmic-import: vkVDj8IIBT/icon
+import Vector4Icon from "./icons/PlasmicIcon__Vector4"; // plasmic-import: 3p0QxfTZAu/icon
+import Vector5Icon from "./icons/PlasmicIcon__Vector5"; // plasmic-import: -5UIB6YQyU/icon
+import Vector6Icon from "./icons/PlasmicIcon__Vector6"; // plasmic-import: T94DyHkG3H/icon
+import Group2Icon from "./icons/PlasmicIcon__Group2"; // plasmic-import: GPXecRDOMe/icon
+import Vector7Icon from "./icons/PlasmicIcon__Vector7"; // plasmic-import: HDSB2xlG2j/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -52,9 +65,18 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  section?: p.Flex<"section">;
-  h1?: p.Flex<"h1">;
+  navContainer?: p.Flex<"div">;
+  frame54?: p.Flex<"div">;
+  amavitaLogo5?: p.Flex<"div">;
+  group?: p.Flex<"div">;
+  outlinedButton?: p.Flex<"div">;
+  unstyledButton2?: p.Flex<"div">;
+  mainContiner?: p.Flex<"div">;
+  heroContainer?: p.Flex<"div">;
+  h1?: p.Flex<"div">;
   text?: p.Flex<"div">;
+  illustration?: p.Flex<"div">;
+  rectangle88?: p.Flex<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -81,6 +103,10 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const $props = args;
 
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants_1HC4EWglKvby()
+  });
+
   return (
     <React.Fragment>
       {}
@@ -104,58 +130,283 @@ function PlasmicHomepage__RenderFunc(props: {
             projectcss.root_reset,
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
+            projectcss.plasmic_tokens,
             sty.root
           )}
         >
-          <p.Stack
-            as={"section"}
-            data-plasmic-name={"section"}
-            data-plasmic-override={overrides.section}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.section)}
+          <div
+            data-plasmic-name={"navContainer"}
+            data-plasmic-override={overrides.navContainer}
+            className={classNames(projectcss.all, sty.navContainer)}
           >
-            <h1
-              data-plasmic-name={"h1"}
-              data-plasmic-override={overrides.h1}
-              className={classNames(
-                projectcss.all,
-                projectcss.h1,
-                projectcss.__wab_text,
-                sty.h1
-              )}
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"frame54"}
+              data-plasmic-override={overrides.frame54}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.frame54)}
             >
-              {"This is a test-project"}
-            </h1>
-
-            <div
-              data-plasmic-name={"text"}
-              data-plasmic-override={overrides.text}
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text
-              )}
-            >
-              <React.Fragment>
-                <React.Fragment>
-                  {
-                    "If you haven't already done so, go back and learn the basics by going through the Plasmic Levels tutorial.\n\nIt's always easier to start from examples! Add a new page using a template—do this from the list of pages in the top left (the gray + button).\n\nOr press the big blue + button to start dragging items into this page.\n\nIntegrate this project into your codebase—press the "
-                  }
-                </React.Fragment>
-                <span
-                  className={"plasmic_default__all plasmic_default__span"}
-                  style={{ fontWeight: 700 }}
+              <div
+                data-plasmic-name={"amavitaLogo5"}
+                data-plasmic-override={overrides.amavitaLogo5}
+                className={classNames(projectcss.all, sty.amavitaLogo5)}
+              >
+                <div
+                  data-plasmic-name={"group"}
+                  data-plasmic-override={overrides.group}
+                  className={classNames(projectcss.all, sty.group)}
                 >
-                  {"Code"}
-                </span>
-                <React.Fragment>
+                  <GroupIcon
+                    className={classNames(projectcss.all, sty.svg__iPiun)}
+                    role={"img"}
+                  />
+
+                  <VectorIcon
+                    className={classNames(projectcss.all, sty.svg__f8Hrd)}
+                    role={"img"}
+                  />
+
+                  <Vector2Icon
+                    className={classNames(projectcss.all, sty.svg__ofOgQ)}
+                    role={"img"}
+                  />
+
+                  <Vector3Icon
+                    className={classNames(projectcss.all, sty.svg__s6DGc)}
+                    role={"img"}
+                  />
+
+                  <Vector4Icon
+                    className={classNames(projectcss.all, sty.svg___95BFh)}
+                    role={"img"}
+                  />
+
+                  <Vector5Icon
+                    className={classNames(projectcss.all, sty.svg__solql)}
+                    role={"img"}
+                  />
+
+                  <Vector6Icon
+                    className={classNames(projectcss.all, sty.svg__psb1M)}
+                    role={"img"}
+                  />
+                </div>
+
+                <Group2Icon
+                  className={classNames(projectcss.all, sty.svg__kNxLm)}
+                  role={"img"}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"outlinedButton"}
+                data-plasmic-override={overrides.outlinedButton}
+                className={classNames(projectcss.all, sty.outlinedButton)}
+              >
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"unstyledButton2"}
+                  data-plasmic-override={overrides.unstyledButton2}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.unstyledButton2)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wxCp
+                    )}
+                  >
+                    {"Jetzt starten"}
+                  </div>
+                </p.Stack>
+              </div>
+            </p.Stack>
+          </div>
+
+          <div
+            data-plasmic-name={"mainContiner"}
+            data-plasmic-override={overrides.mainContiner}
+            className={classNames(projectcss.all, sty.mainContiner)}
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__pamHk)}>
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"heroContainer"}
+                data-plasmic-override={overrides.heroContainer}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.heroContainer)}
+              >
+                <div
+                  data-plasmic-name={"h1"}
+                  data-plasmic-override={overrides.h1}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.h1
+                  )}
+                >
                   {
-                    " button in the top right and follow the quickstart instructions.\n\nJoin our Slack community (icon in bottom left) for help any time."
+                    "Wir kümmern uns um die Rezepte, \nSie sich um Ihre Gesundheit."
                   }
-                </React.Fragment>
-              </React.Fragment>
+                </div>
+
+                <div
+                  data-plasmic-name={"text"}
+                  data-plasmic-override={overrides.text}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text
+                  )}
+                >
+                  {
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu pellentesque volutpat."
+                  }
+                </div>
+              </p.Stack>
             </div>
-          </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__zM4Q5)}
+            >
+              <PrimaryButton
+                className={classNames(
+                  "__wab_instance",
+                  sty.primaryButton__plgGe
+                )}
+                destination={"/" as const}
+                isSelected={true}
+                title={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__jwJpS
+                    )}
+                  >
+                    {"test"}
+                  </div>
+                }
+              />
+
+              <PrimaryButton
+                className={classNames(
+                  "__wab_instance",
+                  sty.primaryButton__kSdQ
+                )}
+                title={
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___3Hbvp
+                    )}
+                  >
+                    {"Go to Products"}
+                  </div>
+                }
+              />
+            </p.Stack>
+
+            <div className={classNames(projectcss.all, sty.freeBox___259Yf)}>
+              <div
+                data-plasmic-name={"illustration"}
+                data-plasmic-override={overrides.illustration}
+                className={classNames(projectcss.all, sty.illustration)}
+              >
+                <Vector7Icon
+                  className={classNames(projectcss.all, sty.svg__aEcfx)}
+                  role={"img"}
+                />
+
+                <Vector7Icon
+                  className={classNames(projectcss.all, sty.svg___1LOrV)}
+                  role={"img"}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__hgZq6)}
+                  displayHeight={"509.67px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"424.653px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/blank_project/images/freepikCharacterInject37.svg",
+                    fullWidth: 424.653,
+                    fullHeight: 509.67,
+                    aspectRatio: 0.833984
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___0Sk1D)}
+                  displayHeight={"163.105px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"64.726px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/blank_project/images/freepikPlantInject37.svg",
+                    fullWidth: 64.726,
+                    fullHeight: 163.105,
+                    aspectRatio: 0.402439
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__jZotr)}
+                  displayHeight={"72.766px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"141.083px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/blank_project/images/freepikDevice2Inject37.svg",
+                    fullWidth: 141.083,
+                    fullHeight: 72.766,
+                    aspectRatio: 1.906667
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___5IqN)}
+                  displayHeight={"234.438px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"383.638px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/blank_project/images/freepikDevice1Inject37.svg",
+                    fullWidth: 383.638,
+                    fullHeight: 234.438,
+                    aspectRatio: 1.635593
+                  }}
+                />
+
+                <div
+                  data-plasmic-name={"rectangle88"}
+                  data-plasmic-override={overrides.rectangle88}
+                  className={classNames(projectcss.all, sty.rectangle88)}
+                />
+              </div>
+            </div>
+          </div>
         </p.Stack>
       </div>
     </React.Fragment>
@@ -163,19 +414,71 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "section", "h1", "text"],
-  section: ["section", "h1", "text"],
+  root: [
+    "root",
+    "navContainer",
+    "frame54",
+    "amavitaLogo5",
+    "group",
+    "outlinedButton",
+    "unstyledButton2",
+    "mainContiner",
+    "heroContainer",
+    "h1",
+    "text",
+    "illustration",
+    "rectangle88"
+  ],
+  navContainer: [
+    "navContainer",
+    "frame54",
+    "amavitaLogo5",
+    "group",
+    "outlinedButton",
+    "unstyledButton2"
+  ],
+  frame54: [
+    "frame54",
+    "amavitaLogo5",
+    "group",
+    "outlinedButton",
+    "unstyledButton2"
+  ],
+  amavitaLogo5: ["amavitaLogo5", "group"],
+  group: ["group"],
+  outlinedButton: ["outlinedButton", "unstyledButton2"],
+  unstyledButton2: ["unstyledButton2"],
+  mainContiner: [
+    "mainContiner",
+    "heroContainer",
+    "h1",
+    "text",
+    "illustration",
+    "rectangle88"
+  ],
+  heroContainer: ["heroContainer", "h1", "text"],
   h1: ["h1"],
-  text: ["text"]
+  text: ["text"],
+  illustration: ["illustration", "rectangle88"],
+  rectangle88: ["rectangle88"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  section: "section";
-  h1: "h1";
+  navContainer: "div";
+  frame54: "div";
+  amavitaLogo5: "div";
+  group: "div";
+  outlinedButton: "div";
+  unstyledButton2: "div";
+  mainContiner: "div";
+  heroContainer: "div";
+  h1: "div";
   text: "div";
+  illustration: "div";
+  rectangle88: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -239,9 +542,18 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    section: makeNodeComponent("section"),
+    navContainer: makeNodeComponent("navContainer"),
+    frame54: makeNodeComponent("frame54"),
+    amavitaLogo5: makeNodeComponent("amavitaLogo5"),
+    group: makeNodeComponent("group"),
+    outlinedButton: makeNodeComponent("outlinedButton"),
+    unstyledButton2: makeNodeComponent("unstyledButton2"),
+    mainContiner: makeNodeComponent("mainContiner"),
+    heroContainer: makeNodeComponent("heroContainer"),
     h1: makeNodeComponent("h1"),
     text: makeNodeComponent("text"),
+    illustration: makeNodeComponent("illustration"),
+    rectangle88: makeNodeComponent("rectangle88"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

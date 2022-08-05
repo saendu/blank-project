@@ -1,5 +1,16 @@
 {
-  "props": [],
+  "props": [
+    {
+      "name": "amavita-red",
+      "type": "color",
+      "value": "#FF0000",
+      "category": "color",
+      "meta": {
+        "projectId": "4jWTYLjMvWY8nrbq5gdDSU",
+        "id": "EDrWHDMun"
+      }
+    }
+  ],
   "global": {
     "meta": {
       "source": "plasmic.app"

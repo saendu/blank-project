@@ -1,14 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700%3B0%2C900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans%3Aital%2Cwght%400%2C400%3B0%2C700&family=Inter%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C900&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C900&family=Montserrat%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700%3B0%2C900&display=swap");
+
+.plasmic_tokens {
+  --token-EDrWHDMun: #ff0000;
+  --plasmic-token-amavita-red: var(--token-EDrWHDMun);
+}
 
 .plasmic_default_styles {
-  --mixin-I_PInxt20g8w_font-family: "Inter";
+  --mixin-I_PInxt20g8w_font-family: "Inria Sans";
   --mixin-I_PInxt20g8w_font-size: 16px;
   --mixin-I_PInxt20g8w_font-weight: 400;
   --mixin-I_PInxt20g8w_font-style: normal;
   --mixin-I_PInxt20g8w_color: #535353;
   --mixin-I_PInxt20g8w_text-align: left;
   --mixin-I_PInxt20g8w_text-transform: none;
-  --mixin-I_PInxt20g8w_line-height: 1.5;
+  --mixin-I_PInxt20g8w_line-height: 1.7;
   --mixin-I_PInxt20g8w_letter-spacing: normal;
   --mixin-I_PInxt20g8w_white-space: pre-wrap;
   --mixin-I_PInxt20g8w_user-select: text;

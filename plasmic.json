@@ -40,10 +40,188 @@
           "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "FK45jwt1ZH",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "4jWTYLjMvWY8nrbq5gdDSU",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicNavbar.tsx",
+          "importSpec": {
+            "modulePath": "Navbar.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicNavbar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7fe5zO4wma",
+          "name": "PrimaryButton",
+          "type": "managed",
+          "projectId": "4jWTYLjMvWY8nrbq5gdDSU",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicPrimaryButton.tsx",
+          "importSpec": {
+            "modulePath": "PrimaryButton.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicPrimaryButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2GCAE000MV",
+          "name": "Product",
+          "type": "managed",
+          "projectId": "4jWTYLjMvWY8nrbq5gdDSU",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicProduct.tsx",
+          "importSpec": {
+            "modulePath": "../pages/product.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicProduct.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "kAPW_62_PI7",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "4jWTYLjMvWY8nrbq5gdDSU",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "fT0KcQ5nbI",
+          "name": "Test",
+          "type": "managed",
+          "projectId": "4jWTYLjMvWY8nrbq5gdDSU",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTest.tsx",
+          "importSpec": {
+            "modulePath": "../pages/test.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
-      "icons": [],
-      "images": [],
+      "icons": [
+        {
+          "id": "dCxvUkLTj",
+          "name": "GroupIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group.tsx"
+        },
+        {
+          "id": "m9BjVVuvGT",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "xlVQjxaBcp",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "vkVDj8IIBT",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "3p0QxfTZAu",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector4.tsx"
+        },
+        {
+          "id": "-5UIB6YQyU",
+          "name": "Vector5Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector5.tsx"
+        },
+        {
+          "id": "T94DyHkG3H",
+          "name": "Vector6Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector6.tsx"
+        },
+        {
+          "id": "GPXecRDOMe",
+          "name": "Group2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Group2.tsx"
+        },
+        {
+          "id": "HDSB2xlG2j",
+          "name": "Vector7Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector7.tsx"
+        },
+        {
+          "id": "lhSCFW6snMj",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "YGJVxtt_h8v",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "0WhgJP_tGP3",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "rWj1gghU91T",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "7gYF74vjhXi",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon14.tsx"
+        },
+        {
+          "id": "DTyOr--YlrO",
+          "name": "ArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__ArrowRightsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "AEf_qg3Zbk",
+          "name": "freepik--Character--inject-37",
+          "filePath": "../public/plasmic/blank_project/images/freepikCharacterInject37.svg"
+        },
+        {
+          "id": "w58xQZnPuE",
+          "name": "freepik--Plant--inject-37",
+          "filePath": "../public/plasmic/blank_project/images/freepikPlantInject37.svg"
+        },
+        {
+          "id": "V0P3ak_iAd",
+          "name": "freepik--device-2--inject-37",
+          "filePath": "../public/plasmic/blank_project/images/freepikDevice2Inject37.svg"
+        },
+        {
+          "id": "0KUYJBOT9u",
+          "name": "freepik--device-1--inject-37",
+          "filePath": "../public/plasmic/blank_project/images/freepikDevice1Inject37.svg"
+        },
+        {
+          "id": "l7zn2HGbBmd",
+          "name": "image",
+          "filePath": "../public/plasmic/blank_project/images/image.jpeg"
+        },
+        {
+          "id": "v2lI_ZAMkJd",
+          "name": "image 2",
+          "filePath": "../public/plasmic/blank_project/images/image2.jpeg"
+        },
+        {
+          "id": "nWAv_npNPCw",
+          "name": "image 3",
+          "filePath": "../public/plasmic/blank_project/images/image3.jpeg"
+        }
+      ],
       "indirect": false,
       "globalContextsFilePath": "",
       "codeComponents": []

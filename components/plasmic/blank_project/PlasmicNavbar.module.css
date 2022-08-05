@@ -1,0 +1,180 @@
+.root {
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 1064px);
+  width: calc(100% + 1064px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 1064px;
+}
+.amavitaLogo5 {
+  width: 136px;
+  height: 32px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.group {
+  transform: translate(-0.012px, -0.484px);
+  width: 107px;
+  height: 27px;
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+}
+.svg__qQjrb {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  width: 18.665px;
+  height: 26.483px;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+.svg__uAwrb {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  transform: translate(0.2809999999999988px, -0.4800000000000004px);
+  width: 19px;
+  height: 17px;
+  display: block;
+  top: 22.65%;
+  left: 19.76%;
+}
+.svg__zKy4M {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  transform: translate(-0.13799999999999812px, -0.48099999999999987px);
+  width: 16px;
+  height: 17px;
+  display: block;
+  top: 22.65%;
+  left: 39.52%;
+}
+.svg__uxy9X {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  transform: translate(-0.08299999999999841px, 0px);
+  width: 16px;
+  height: 23px;
+  display: block;
+  top: 0%;
+  left: 54.58%;
+}
+.svg__dDd {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  transform: translate(0.028999999999996362px, -0.48099999999999987px);
+  width: 3px;
+  height: 17px;
+  display: block;
+  top: 22.65%;
+  left: 69.64%;
+}
+.svg__l6D4B {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  transform: translate(0.24099999999999966px, -0.48099999999999987px);
+  width: 13px;
+  height: 17px;
+  display: block;
+  top: 22.65%;
+  left: 74.35%;
+}
+.svg__a8VvO {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #e20041;
+  transform: translate(0.0040000000000048885px, -0.48099999999999987px);
+  width: 16px;
+  height: 17px;
+  display: block;
+  top: 22.65%;
+  left: 85.64%;
+}
+.svg__jLqc {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #006964;
+  transform: translate(-0.48399999999999466px, 0px);
+  width: 24.483px;
+  height: 24.826px;
+  display: block;
+  top: 0px;
+  left: 112px;
+}
+.outlinedButton {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+.unstyledButton {
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 12px 20px;
+}
+.unstyledButton > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.unstyledButton > :global(.__wab_flex-container) > *,
+.unstyledButton > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.unstyledButton > :global(.__wab_flex-container) > picture > img,
+.unstyledButton
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+.button {
+  display: block;
+  font-size: 16px;
+  font-family: "DIN 2014";
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  color: rgba(0, 102, 102, 1);
+  position: relative;
+}
